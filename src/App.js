@@ -4,12 +4,16 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Navbar from "./Component/Navbar/Navbar";
 import Footer from "./Component/Footer/Footer";
 import ContentHeader from "./Component/header-content/header-content";
+import ContentTraining from "./Component/content-training-coaching/content-training-coaching";
+import About from "./Component/About/About";
 
 function App() {
     return (
         <div className="App">
             <Navbar />
             <ContentHeader />
+            <ContentTraining />
+            <About />
             <Footer />
         </div>
     );

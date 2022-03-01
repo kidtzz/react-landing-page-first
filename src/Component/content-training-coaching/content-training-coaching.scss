@@ -1,4 +1,4 @@
-.header-content {
+.section-Content-Training {
     .section-tittle {
         .text {
             font-size: 55px;
@@ -8,9 +8,10 @@
             }
         }
     }
-    .section-body-content {
-        .btn-outline-dark {
-            padding: 10px 25px;
+    .section-training-content {
+        a,button {
+            color: #36afeb;
         }
+        
     }
 }

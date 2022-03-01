@@ -12,14 +12,20 @@ export const ListMenu = [
         url: "#",
     },
     {
+        title: "Training",
+        submenu: [
+            {
+                title: "Design Sprints",
+                url: "#",
+            },
+        ],
+    },
+    {
         title: "Shop Product",
         submenu: [
             {
-                title: "MYCORRHIZAE",
+                title: "Course",
                 url: "#",
-            },
-            {
-                title: "System",
             },
         ],
     },
@@ -28,7 +34,7 @@ export const ListMenu = [
         url: "#",
     },
     {
-        title: "Articles ",
+        title: "News ",
         url: "#",
     },
 ];
