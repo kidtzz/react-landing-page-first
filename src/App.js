@@ -8,6 +8,8 @@ import ContentTraining from "./Component/content-training-coaching/content-train
 import About from "./Component/About/About";
 import OnlineCourse from "./Component/Online-Course/Online-Course";
 import JoinOur from "./Component/Join-Our/Join-Our";
+import EntireTeam from "./Component/Entire-Team/Entire-Team";
+import SignUp from "./Component/SignUp/SignUp";
 
 function App() {
     return (
@@ -18,6 +20,8 @@ function App() {
             <About />
             <OnlineCourse />
             <JoinOur />
+            <EntireTeam />
+            <SignUp />
             <Footer />
         </div>
     );
