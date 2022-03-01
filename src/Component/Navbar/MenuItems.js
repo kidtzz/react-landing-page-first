@@ -21,7 +21,7 @@ export const ListMenu = [
         ],
     },
     {
-        title: "Shop Product",
+        title: "E-Learning",
         submenu: [
             {
                 title: "Course",
