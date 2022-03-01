@@ -1,88 +1,6 @@
-// DEKSTOP
 
-@media only screen and (min-width: 992px) {
-    // NAVBAR
-    .navbar-expand-lg {
-        height: 68px !important;
-    }
-    .navbar1 {
-        .nav-item > .nav-link {
-            padding: 5px 20px !important;
-            display: block !important;
-        }
-
-        .nav-link {
-            margin-bottom: -12px;
-            color: #666666;
-        }
-
-        .nav-link::after {
-            content: "";
-            display: block;
-            width: 0px;
-            height: 2px;
-            margin-top: 12px;
-            background: #3e6e0d;
-            background: linear-gradient(
-                142deg,
-                rgba(62, 110, 13, 1) 35%,
-                rgba(32, 167, 20, 1) 93%
-            );
-            transition: 0.4s;
-            -webkit-transition: 0.4s;
-            -moz-transition: 0.4s;
-            -ms-transition: 0.4s;
-            -o-transition: 0.4s;
-        }
-
-        .nav-link:hover::after {
-            width: 100%;
-        }
-
-        .navbar-nav .nav-link:hover {
-            color: black;
-        }
-        .navbar-nav .fw-bold {
-            margin-left: 12px;
-        }
-    }
-
-    // DROPDOWN
-    .menu-items button {
-        margin-bottom: 4px;
-    }
-}
-
-// MOBILE X PHONE
-@media only screen and (max-width: 992px) {
-    .navbar1 {
-        .navbar-toggler:focus,
-        .navbar-toggler:active,
-        .navbar-toggler-icon:focus {
-            outline: none;
-            box-shadow: none;
-            border: none;
-        }
-        .dropdown.show {
-            display: block;
-            height: 100px;
-            .nav-link {
-                margin-left: 20px;
-                margin-bottom: -20px;
-                text-justify: center;
-            }
-        }
-    }
-    .header-inner {
-        background-color: white !important;
-        .nav-link a:hover {
-            color: var(--yellow);
-        }
-    }
-}
 
 a {
-    font-weight: bold;
     text-decoration: none;
     color: black;
 }
@@ -97,6 +15,7 @@ a {
     z-index: 99;
     background-color: #fff;
     list-style: none;
+    height: 90px;
 }
 
 .navbar-scroll {
@@ -137,18 +56,19 @@ a {
     background-color: transparent;
     cursor: pointer;
     width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .menu-items a,
 .menu-items button {
-    font-weight: bold;
     text-align: left;
     color: #666666;
     padding: 0.7rem 1rem;
 }
 
 .dropdown {
-    margin-top: 2px;
+    margin-top: 0px;
     position: absolute;
     box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
         0 4px 6px -2px rgba(71, 63, 79, 0.16);
@@ -174,6 +94,7 @@ a {
 .dropdown.show {
     display: block;
     border-top: 2px solid #3e6e0d;
+    padding: 25px 10px;
 
     // margin-top: 8px;
 

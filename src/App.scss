@@ -1,11 +1,95 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 body {
     font-size: 16px;
+}
+
+// DEKSTOP
+
+@media only screen and (min-width: 992px) {
+    // NAVBAR
+    .navbar-expand-lg {
+        height: 68px !important;
+    }
+    .navbar {
+        height: 90px !important;
+        .nav-item > .nav-link {
+            padding: 5px 20px !important;
+            display: block !important;
+        }
+
+        .nav-link {
+            margin-bottom: -31px;
+            color: #666666;
+        }
+
+        .nav-link::after {
+            content: "";
+            display: block;
+            width: 0px;
+            height: 2px;
+            margin-top: 31px;
+            background: #3e6e0d;
+            background: linear-gradient(
+                142deg,
+                rgba(62, 110, 13, 1) 35%,
+                rgba(32, 167, 20, 1) 93%
+            );
+            transition: 0.4s;
+            -webkit-transition: 0.4s;
+            -moz-transition: 0.4s;
+            -ms-transition: 0.4s;
+            -o-transition: 0.4s;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: black;
+        }
+        .navbar-nav .fw-bold {
+            margin-left: 12px;
+        }
+    }
+
+    // DROPDOWN
+    .menu-items button {
+        margin-bottom: 4px;
+    }
+}
+
+// MOBILE X PHONE
+@media only screen and (max-width: 992px) {
+    .navbar {
+        .navbar-toggler:focus,
+        .navbar-toggler:active,
+        .navbar-toggler-icon:focus {
+            outline: none;
+            box-shadow: none;
+            border: none;
+        }
+        .dropdown.show {
+            display: block;
+            height: 100px;
+            .nav-link {
+                margin-left: 20px;
+                margin-bottom: -20px;
+                text-justify: center;
+            }
+        }
+    }
+    .header-inner {
+        background-color: white !important;
+        .nav-link a:hover {
+            color: var(--yellow);
+        }
+    }
 }
