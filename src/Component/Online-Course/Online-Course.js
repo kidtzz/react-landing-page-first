@@ -1,25 +1,99 @@
 import React from "react";
-import "./Online-Course";
+import "./Online-Course.scss";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import img1 from "../../img/online-course/01.webp";
 import img2 from "../../img/online-course/02.webp";
 import img3 from "../../img/online-course/03.webp";
+import img4 from "../../img/online-course/04.webp";
+import img5 from "../../img/online-course/05.webp";
+import img6 from "../../img/online-course/06.webp";
+import img7 from "../../img/online-course/07.webp";
+import img8 from "../../img/online-course/08.webp";
+import img9 from "../../img/online-course/09.webp";
+import img10 from "../../img/online-course/10.webp";
+import img11 from "../../img/online-course/11.webp";
+import img12 from "../../img/online-course/12.webp";
+import img13 from "../../img/online-course/13.webp";
+import img14 from "../../img/online-course/14.webp";
+import img15 from "../../img/online-course/15.webp";
 
 const OnlineCourse = () => {
-    const ListCard = [
+    const ListCard1 = [
         {
             img: [img1],
-            tittle: "lorem kole adajd",
-            textbody: "lorem kolaek",
+            tittle: "Marketing",
+            textbody: "Developing Products From Idea to Market Leader",
         },
         {
             img: [img2],
-            tittle: "lorem kole adajd",
+            tittle: "Finance Planning",
             textbody: "lorem kolaek",
         },
         {
             img: [img3],
+            tittle: "leadership",
+            textbody: "lorem kolaek",
+        },
+        {
+            img: [img4],
+            tittle: "Project Coordinaat",
+            textbody: "lorem kolaek",
+        },
+        {
+            img: [img5],
+            tittle: "lorem kole adajd",
+            textbody: "lorem kolaek",
+        },
+        {
+            img: [img6],
+            tittle: "lorem kole adajd",
+            textbody: "lorem kolaek",
+        },
+        {
+            img: [img7],
+            tittle: "lorem kole adajd",
+            textbody: "lorem kolaek",
+        },
+        {
+            img: [img8],
+            tittle: "lorem kole adajd",
+            textbody: "lorem kolaek",
+        },
+    ];
+    const ListCard2 = [
+        {
+            img: [img9],
+            tittle: "lorem kole adajd",
+            textbody: "lorem kolaek",
+        },
+        {
+            img: [img10],
+            tittle: "lorem kole adajd",
+            textbody: "lorem kolaek",
+        },
+        {
+            img: [img11],
+            tittle: "lorem kole adajd",
+            textbody: "lorem kolaek",
+        },
+        {
+            img: [img12],
+            tittle: "lorem kole adajd",
+            textbody: "lorem kolaek",
+        },
+        {
+            img: [img13],
+            tittle: "lorem kole adajd",
+            textbody: "lorem kolaek",
+        },
+        {
+            img: [img14],
+            tittle: "lorem kole adajd",
+            textbody: "lorem kolaek",
+        },
+        {
+            img: [img15],
             tittle: "lorem kole adajd",
             textbody: "lorem kolaek",
         },
@@ -42,7 +116,7 @@ const OnlineCourse = () => {
         },
     };
     return (
-        <div className="container Sectin-Online-Course  py-5">
+        <div className="container sectin-online-course  py-5">
             <div className="row">
                 <div className="col-lg-6">
                     <div className="section-tittle mb-5">
@@ -65,41 +139,85 @@ const OnlineCourse = () => {
                     </div>
                 </div>
             </div>
-            {ListCard.map((Item, Index) => {
-                return (
-                    <Carousel
-                        swipeable={false}
-                        draggable={false}
-                        showDots={true}
-                        responsive={responsive}
-                        ssr={true}
-                        infinite={true}
-                        autoPlay={true}
-                        autoPlaySpeed={1000}
-                        keyBoardControl={true}
-                        customTransition="all .5"
-                        transitionDuration={500}
-                        containerClass="carousel-container"
-                        removeArrowOnDeviceType={["tablet", "mobile"]}
-                        dotListClass="custom-dot-list-style"
-                        itemClass="carousel-item-padding-40-px"
-                        key={Index}
-                        className="row d-flex"
-                    >
-                        <div className="col-lg-3">
-                            <div className="card">
-                                <img
-                                    className="img-fluid"
-                                    src={Item.img}
-                                    alt=""
-                                />
-                                <div className="text-tittle">{Item.tittle}</div>
-                                <div className="text-body">{Item.textbody}</div>
+
+            <div className="section-news">
+                <Carousel
+                    swipeable={false}
+                    draggable={false}
+                    responsive={responsive}
+                    ssr={true}
+                    infinite={true}
+                    autoPlay={true}
+                    autoPlaySpeed={2000}
+                    keyBoardControl={true}
+                    customTransition="all .5"
+                    transitionDuration={500}
+                    containerClass="carousel-container"
+                    removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
+                    dotListClass="custom-dot-list-style"
+                    itemClass="carousel-item-padding-40-px"
+                    className="container"
+                >
+                    {ListCard1.map((Item, Index) => {
+                        return (
+                            <div className="col-lg-11 mx-3" key={Index}>
+                                <div className="card">
+                                    <img
+                                        className="img-fluid"
+                                        src={Item.img}
+                                        alt=""
+                                    />
+                                    <div className="text-tittle px-3 m-2 mx-0">
+                                        {Item.tittle}
+                                    </div>
+                                    <div className="text-body px-3 mb-2">
+                                        {Item.textbody}
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </Carousel>
-                );
-            })}
+                        );
+                    })}
+                </Carousel>
+            </div>
+            <div className="section-news mt-4">
+                <Carousel
+                    swipeable={false}
+                    draggable={false}
+                    responsive={responsive}
+                    ssr={true}
+                    infinite={true}
+                    autoPlay={true}
+                    autoPlaySpeed={2000}
+                    keyBoardControl={true}
+                    customTransition="all .5"
+                    transitionDuration={500}
+                    containerClass="carousel-container"
+                    removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
+                    dotListClass="custom-dot-list-style"
+                    itemClass="carousel-item-padding-40-px"
+                    className="container"
+                >
+                    {ListCard2.map((Item, Index) => {
+                        return (
+                            <div className="col-lg-11 mx-3" key={Index}>
+                                <div className="card">
+                                    <img
+                                        className="img-fluid"
+                                        src={Item.img}
+                                        alt=""
+                                    />
+                                    <div className="text-tittle  px-3 m-2 mx-0">
+                                        {Item.tittle}
+                                    </div>
+                                    <div className="text-body px-3 mb-2">
+                                        {Item.textbody}
+                                    </div>
+                                </div>
+                            </div>
+                        );
+                    })}
+                </Carousel>
+            </div>
         </div>
     );
 };
