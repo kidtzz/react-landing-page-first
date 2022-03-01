@@ -6,6 +6,7 @@ import Footer from "./Component/Footer/Footer";
 import ContentHeader from "./Component/header-content/header-content";
 import ContentTraining from "./Component/content-training-coaching/content-training-coaching";
 import About from "./Component/About/About";
+import OnlineCourse from "./Component/Online-Course/Online-Course";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <ContentHeader />
             <ContentTraining />
             <About />
+            <OnlineCourse />
             <Footer />
         </div>
     );

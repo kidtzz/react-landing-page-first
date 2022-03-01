@@ -10,7 +10,15 @@ body {
     font-size: 16px;
     color: #666666;
 }
-
+.section-tittle {
+    .text {
+        font-size: 40px;
+        color: #333333;
+        span {
+            color: #36afeb !important;
+        }
+    }
+}
 
 // DEKSTOP
 
