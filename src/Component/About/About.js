@@ -3,7 +3,7 @@ import "./About.scss";
 
 const About = () => {
     return (
-        <div className="container section-About py-5 mb-5">
+        <div className="container section-About py-5 mb-5" id="About">
             <div className="row">
                 <div className="col-lg-5">
                     <div className="section-tittle mb-5">

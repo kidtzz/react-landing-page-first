@@ -9,7 +9,7 @@ export const ListMenu = [
     },
     {
         title: "About",
-        url: "#",
+        url: "#About",
     },
     {
         title: "Training",
