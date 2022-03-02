@@ -76,9 +76,21 @@ body {
     }
     // ABOUT
 }
+// TABLET
+@media only screen and (max-width: 992px) {
+    // Entire team
+    .section-entire-team {
+        .row {
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(3, [col-start] 1fr);
+            gap: 1rem;
+        }
+    }
+}
 
 // MOBILE X PHONE
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 670px) {
     .navbar {
         .navbar-toggler:focus,
         .navbar-toggler:active,
