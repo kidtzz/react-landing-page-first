@@ -24,7 +24,7 @@ const ContentHeader = () => {
                             </p>
                         </div>
 
-                        <div className="btn btn-outline-dark">Learn More</div>
+                        <div className="btn btn-outline-dark mb-5">Learn More</div>
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-6 col-lg-0 col-xl-6 text-center">
                         <img className="img-fluid" src={img2} alt="" />

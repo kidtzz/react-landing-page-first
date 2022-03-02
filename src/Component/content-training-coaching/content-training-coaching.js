@@ -67,7 +67,7 @@ const ContentTraining = () => {
                                 <a href=" ">Lorem ipsum dolor sit amet.</a>
                                 <p className="mt-4">{Item.textbody}</p>
 
-                                <button className="btn ">
+                                <button className="btn mb-2 ">
                                     {" "}
                                     Read More
                                     <i class="px-2 fas fa-long-arrow-alt-right"></i>

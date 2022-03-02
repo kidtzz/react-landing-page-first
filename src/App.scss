@@ -74,6 +74,7 @@ body {
     .menu-items button {
         margin-bottom: 4px;
     }
+    // ABOUT
 }
 
 // MOBILE X PHONE
@@ -100,6 +101,11 @@ body {
         background-color: white !important;
         .nav-link a:hover {
             color: var(--yellow);
+        }
+    }
+    .section-About {
+        .section-tittle {
+            text-align: center;
         }
     }
 }

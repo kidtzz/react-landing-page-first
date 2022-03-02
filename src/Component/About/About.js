@@ -7,7 +7,7 @@ const About = () => {
             <div className="row">
                 <div className="col-lg-5">
                     <div className="section-tittle mb-5">
-                        <div className="text-start text ">
+                        <div className=" text ">
                             <div className="about-tittle mb-3">
                                 We are <span>Summit,</span> and we will bring
                                 you to the top.
@@ -23,12 +23,12 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-7 d-block text-center ">
+                <div className="col-lg-7 d-block text-center content-bottom ">
                     <div className="col-lg-12  justify-content-center">
                         <div className="title-number ">
-                            <div className="col-lg-3 offset-lg-5 text-center">
+                            <div className="col-lg-3 offset-lg-5 text-center border">
                                 <h1>60+</h1>
-                                <hr />
+                                <div className="line float-center my-3"></div>
                                 <p>Online and Offline Course</p>
                             </div>
                         </div>
