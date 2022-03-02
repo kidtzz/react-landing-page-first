@@ -11,7 +11,7 @@ const JoinOur = () => {
                 </div>
                 <div className="col-lg-6 align-items-center">
                     <div className="section-tittle mb-5 mt-5">
-                        <div className="text-start section-text mb-2">
+                        <div className=" section-text mb-2">
                             Join Our Next Webinar
                         </div>
                         <div className="text-body mb-3">

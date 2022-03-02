@@ -12,12 +12,12 @@ const SignUp = () => {
                 </div>
                 <div className="section-button row">
                     <div className="col-lg-1 justify-content-center offset-lg-5">
-                        <button className="btn btn-outline-dark">
+                        <button className="btn btn-outline-dark my-3">
                             Training
                         </button>
                     </div>
                     <div className="col-lg-2   ">
-                        <button className="btn btn-outline-dark">
+                        <button className="btn btn-outline-dark my-3">
                             Sign Up
                         </button>
                     </div>

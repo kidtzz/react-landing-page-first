@@ -11,21 +11,24 @@ const Footer = () => {
                     <div className="col-lg-4 col-md-4 col-xl-4  mb-3 mb-lg-0 ">
                         <h3>ARCH-kidtz</h3>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-xl-2 mb-3 mb-lg-0 ">
+                    <div className="col-lg-2 col-md-2 col-xl-2 mb-3 mb-lg-0  ">
                         <h3 className="mb-4">About us</h3>
-                        <p>
+                        <p className="text-P">
                             {" "}
-                            <a href=" "> Our Values </a>
+                            <a className="" href=" ">
+                                {" "}
+                                Our Values{" "}
+                            </a>
                         </p>
-                        <p>
+                        <p className="text-P">
                             {" "}
                             <a href=" "> Contact Us</a>
                         </p>
-                        <p>
+                        <p className="text-P">
                             {" "}
                             <a href=" "> News</a>
                         </p>
-                        <p>
+                        <p className="text-P">
                             {" "}
                             <a href=" "> References</a>
                         </p>
@@ -33,23 +36,23 @@ const Footer = () => {
                     <div className="col-lg-2 col-md-2 col-xl-2  mb-3 mb-lg-0 ">
                         <h3 className="mb-4 ">Learning</h3>
                         <div className="text-secondary">
-                            <p>
+                            <p className="text-P">
                                 {" "}
                                 <a href=" "> Training </a>
                             </p>
-                            <p>
+                            <p className="text-P">
                                 {" "}
                                 <a href=" "> eLearning</a>
                             </p>
-                            <p>
+                            <p className="text-P">
                                 {" "}
                                 <a href=" "> Design</a>
                             </p>
-                            <p>
+                            <p className="text-P">
                                 {" "}
                                 <a href=" "> Sprints</a>
                             </p>
-                            <p>
+                            <p className="text-P">
                                 {" "}
                                 <a href=" "> Coaches</a>
                             </p>

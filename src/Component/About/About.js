@@ -26,9 +26,9 @@ const About = () => {
                 <div className="col-lg-7 d-block text-center content-bottom ">
                     <div className="col-lg-12  justify-content-center">
                         <div className="title-number ">
-                            <div className="col-lg-3 offset-lg-5 text-center border">
+                            <div className="col-lg-3 offset-lg-5 text-center ">
                                 <h1>60+</h1>
-                                <div className="line float-center my-3"></div>
+                                <hr />
                                 <p>Online and Offline Course</p>
                             </div>
                         </div>

@@ -103,9 +103,21 @@ body {
             color: var(--yellow);
         }
     }
-    .section-About {
-        .section-tittle {
-            text-align: center;
+    .section-About .section-tittle,
+    .section-Join-Our .section-tittle,
+    .section-signUp .section-tittle,
+    .footer,
+    .footer .text-P {
+        text-align: center;
+    }
+
+    // Entire team
+    .section-entire-team {
+        .row {
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, [col-start] 1fr);
+            gap: 1rem;
         }
     }
 }

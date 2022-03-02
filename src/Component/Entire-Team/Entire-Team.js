@@ -42,7 +42,10 @@ const EntireTeam = () => {
             <div className="row container mt-5 ">
                 {ListTeam.map((item, index) => {
                     return (
-                        <div className="col-lg-2  " key={index}>
+                        <div
+                            className="col-lg-2  col-md-2 col-xl-2 mb-lg-0 "
+                            key={index}
+                        >
                             <img
                                 className="img-fluid mx-4"
                                 src={item.img}
