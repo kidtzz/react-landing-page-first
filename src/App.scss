@@ -79,6 +79,7 @@ body {
 // TABLET x PHONE
 @media only screen and (max-width: 992px) {
     .navbar {
+        background-color: #fff;
         .navbar-toggler:focus,
         .navbar-toggler:active,
         .navbar-toggler-icon:focus {
@@ -95,9 +96,14 @@ body {
                 text-justify: center;
             }
         }
+        .menu-items button {
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
     }
     .header-inner {
-        background-color: #fff !important;
+        height: 20px !important;
+        background: #fff !important;
         .nav-link a:hover {
             color: var(--yellow);
         }
@@ -115,20 +121,20 @@ body {
         .row {
             justify-content: center;
             display: grid;
-            grid-template-columns: repeat(2, [col-start] 1fr);
+            grid-template-columns: repeat(3, [col-start] 1fr);
             gap: 1rem;
         }
     }
 }
 
 // TABLET
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     // Entire team
     .section-entire-team {
         .row {
             justify-content: center;
             display: grid;
-            grid-template-columns: repeat(3, [col-center] 1fr);
+            grid-template-columns: repeat(2, [col-center] 1fr);
             gap: 1rem;
         }
     }

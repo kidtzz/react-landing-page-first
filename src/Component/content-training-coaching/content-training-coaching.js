@@ -62,7 +62,11 @@ const ContentTraining = () => {
                                 className="col-lg-4 d-block text-center"
                                 key={index}
                             >
-                                <img className="img-fluid" src={Item.img} alt="" />
+                                <img
+                                    className="img-fluid"
+                                    src={Item.img}
+                                    alt=""
+                                />
                                 <h4 className="mb-2">{Item.title}</h4>
                                 <a href=" ">Lorem ipsum dolor sit amet.</a>
                                 <p className="mt-4">{Item.textbody}</p>
@@ -70,7 +74,7 @@ const ContentTraining = () => {
                                 <button className="btn mb-2 ">
                                     {" "}
                                     Read More
-                                    <i class="px-2 fas fa-long-arrow-alt-right"></i>
+                                    <i className="px-2 fas fa-long-arrow-alt-right"></i>
                                 </button>
                             </div>
                         );

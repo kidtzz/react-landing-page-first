@@ -69,24 +69,24 @@ const Footer = () => {
                             </Form.Group>
                             <button
                                 type="submit"
-                                class="btn btn-outline-dark mx-3"
+                                className="btn btn-outline-dark mx-3"
                             >
                                 Submit
                             </button>
                         </div>
-                        <div class="btn" href="#!" role="button">
+                        <div className="btn" href="#!" role="button">
                             <a href=" ">
-                                <i class="fab fa-facebook-square"></i>
+                                <i className="fab fa-facebook-square"></i>
                             </a>
                         </div>
-                        <div class="btn  " href="#!" role="button">
+                        <div className="btn  " href="#!" role="button">
                             <a href=" ">
-                                <i class="fab fa-instagram"></i>
+                                <i className="fab fa-instagram"></i>
                             </a>
                         </div>
-                        <div class="btn  " href="#!" role="button">
+                        <div className="btn  " href="#!" role="button">
                             <a href=" ">
-                                <i class="fas fa-globe"></i>
+                                <i className="fas fa-globe"></i>
                             </a>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ const Footer = () => {
                     {/* Copyright */}
                 </div>
             </div>
-            <div class="container copyright text-secondary ">
+            <div className="container copyright text-secondary ">
                 <hr />
                 <div className="d-flex justify-content-between pt-3 py-5">
                     <div className="d-flex">
