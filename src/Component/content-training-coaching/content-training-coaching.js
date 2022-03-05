@@ -43,7 +43,7 @@ const ContentTraining = () => {
             img: [img6],
             title: "Design Sprints",
             textbody:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sapiente impedit aliquam velit adipisci corporis.",
+                "Lorem ipsum dolor sit consectetur adipisicing elit. Quae sapiente impedit aliquam velit adipisci corporis.",
         },
     ];
     return (
