@@ -24,7 +24,9 @@ const ContentHeader = () => {
                             </p>
                         </div>
 
-                        <div className="btn btn-outline-dark mb-5">Learn More</div>
+                        <div className="btn btn-outline-dark mb-5">
+                            Learn More
+                        </div>
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-6 col-lg-0 col-xl-6 text-center">
                         <img className="img-fluid" src={img2} alt="" />
@@ -32,7 +34,7 @@ const ContentHeader = () => {
                         <div className="col-lg-8 offset-lg-2">
                             <p className="mb-4 px-5">
                                 With our online video courses you can sharpen
-                                your skills wherever you are.
+                                your skills you are.
                             </p>
                         </div>
 
