@@ -34,12 +34,12 @@ class App extends Component {
                         {/* <Route path="/About" element={<About />} />
                         <Route path="/Contact" element={<SignUp />} /> */}
                     </Routes>
-                    {/* <ContentTraining />
+                    <ContentTraining />
                     <About />
                     <OnlineCourse />
                     <JoinOur />
                     <EntireTeam />
-                    <SignUp /> */}
+                    <SignUp />
                     <Footer />
                 </div>
             </BrowserRouter>
