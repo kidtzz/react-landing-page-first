@@ -35,8 +35,8 @@ const EntireTeam = () => {
                     Train Your <span> Entire Team </span>
                 </div>
                 <div className="text-body text-center">
-                    Lorem ipsum dolor amet, consectetur adipisicing elit,
-                    sed do eiusmod.
+                    Lorem ipsum dolor, consectetur adipisicing elit, sed do
+                    eiusmod.
                 </div>
             </div>
             <div className="row container mt-5 ">

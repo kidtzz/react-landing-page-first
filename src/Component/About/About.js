@@ -14,7 +14,7 @@ const About = () => {
                             </div>
                             <p className="mb-4">
                                 Lorem ipsum dolor sit amet, consectetuer adipis
-                                elit. Aenean eget dolor. Aenean massa cum sociis
+                                elit. Aenean dolor. Aenean massa cum sociis
                                 natoque penatibus et .
                             </p>
                             <button className="btn btn-outline-dark">
