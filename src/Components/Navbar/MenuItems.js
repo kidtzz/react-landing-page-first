@@ -1,15 +1,16 @@
 import { useState, useEffect, useRef } from "react";
+import { NavLink } from "react-router-dom";
 
 import Dropdown from "./Dropdown";
 
 export const ListMenu = [
     {
         title: "Home",
-        url: "#",
+        url: "/",
     },
     {
         title: "About",
-        url: "#About",
+        url: "/About",
     },
     {
         title: "Training",
@@ -101,9 +102,9 @@ export const MenuItems = ({ items, depthLevel }) => {
                     />
                 </>
             ) : (
-                <a className="nav-link" href="/#">
+                <NavLink className="nav-link" to={items.url}>
                     {items.title}
-                </a>
+                </NavLink>
             )}
         </li>
     );
