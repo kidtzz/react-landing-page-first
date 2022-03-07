@@ -32,11 +32,11 @@ export const ListMenu = [
     },
     {
         title: "Contact",
-        url: "#",
+        url: "/Contact",
     },
     {
         title: "News ",
-        url: "#",
+        url: "/News",
     },
 ];
 
