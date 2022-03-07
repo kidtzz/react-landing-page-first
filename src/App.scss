@@ -20,9 +20,75 @@ body {
     }
 }
 
-// DEKSTOP
+// For Mobile Phones
 
-@media only screen and (min-width: 992px) {
+@media (max-width: 480px) {
+    .navbar {
+        background-color: #fff;
+        .navbar-toggler:focus,
+        .navbar-toggler:active,
+        .navbar-toggler-icon:focus {
+            outline: none;
+            box-shadow: none;
+            border: none;
+        }
+        .dropdown.show {
+            display: block;
+            height: 100px;
+            .nav-link {
+                margin-left: 20px;
+                margin-bottom: -20px;
+                text-justify: center;
+            }
+        }
+        .menu-items button {
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+    }
+    .header-inner {
+        height: 20px !important;
+        background: #fff !important;
+        .nav-link a:hover {
+            color: var(--yellow);
+        }
+    }
+    .section-About .section-tittle,
+    .section-Join-Our .section-tittle,
+    .section-signUp .section-tittle,
+    .footer,
+    .footer .text-P {
+        text-align: center;
+    }
+
+    // Entire team
+    .section-entire-team {
+        .row {
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, [col-start] 1fr);
+            gap: 1rem;
+        }
+    }
+}
+
+// For Tablets
+
+@media (max-width: 960px) {
+    // Entire team
+    .section-entire-team {
+        .row {
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(3, [col-start] 1fr);
+            gap: 1rem;
+        }
+    }
+}
+
+// For Laptops/Desktop
+
+@media (min-width: 1025px) {
     // NAVBAR
     .navbar-expand-lg {
         height: 68px !important;
@@ -74,68 +140,12 @@ body {
     .menu-items button {
         margin-bottom: 4px;
     }
-    // ABOUT
-}
-// TABLET x PHONE
-@media only screen and (max-width: 992px) {
-    .navbar {
-        background-color: #fff;
-        .navbar-toggler:focus,
-        .navbar-toggler:active,
-        .navbar-toggler-icon:focus {
-            outline: none;
-            box-shadow: none;
-            border: none;
-        }
-        .dropdown.show {
-            display: block;
-            height: 100px;
-            .nav-link {
-                margin-left: 20px;
-                margin-bottom: -20px;
-                text-justify: center;
-            }
-        }
-        .menu-items button {
-            margin-bottom: 0px;
-            margin-top: 0px;
-        }
-    }
-    .header-inner {
-        height: 20px !important;
-        background: #fff !important;
-        .nav-link a:hover {
-            color: var(--yellow);
-        }
-    }
-    .section-About .section-tittle,
-    .section-Join-Our .section-tittle,
-    .section-signUp .section-tittle,
-    .footer,
-    .footer .text-P {
-        text-align: center;
-    }
-
-    // Entire team
-    .section-entire-team {
-        .row {
-            justify-content: center;
-            display: grid;
-            grid-template-columns: repeat(3, [col-start] 1fr);
-            gap: 1rem;
-        }
-    }
 }
 
-// TABLET
-@media only screen and (max-width: 768px) {
-    // Entire team
-    .section-entire-team {
-        .row {
-            justify-content: center;
-            display: grid;
-            grid-template-columns: repeat(2, [col-center] 1fr);
-            gap: 1rem;
-        }
-    }
-}
+//
+
+//
+
+// For Hi-Res Laptops
+// @media (max-width: 1280px) {
+// }
