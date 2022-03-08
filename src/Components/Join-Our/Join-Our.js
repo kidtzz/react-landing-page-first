@@ -16,8 +16,8 @@ const JoinOur = () => {
                         </div>
                         <div className="text-body mb-3">
                             August 27, 2 PM EST — Lorem ipsum dolor sit amet,
-                            con setetuer adipiscing elit. Aenean commodo ligula
-                            eget dolor. Aenean massa. Cum sociis natoque penati.
+                            con setetuer adipiscing elit. commodo ligula
+                            eget dolor. Aenean. Cum sociis natoque penati.
                         </div>
                         <button className="btn btn-outline-dark">
                             Registrasi Now
