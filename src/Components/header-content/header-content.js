@@ -8,7 +8,7 @@ const ContentHeader = () => {
         <div className="container header-content  py-5">
             <div className="section-tittle mb-5">
                 <div className="text-center text mb-5">
-                    <span> Inspiring You</span> to Get the Most Out of Your
+                    <span> Inspiring kolea You</span> to Get the Most Out of Your
                     <span>Business</span>
                 </div>
             </div>
